@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #ddd;
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Kaushan-Script-Regular;
+	src: url("static/KaushanScript-Regular.otf") format("opentype");
+}
+.header{
+	text-align: center;
+	font-family: Kaushan-Script-Regular;
+	font-size: 1em;
+}
+.block{
+	width: 50%;
+	margin: auto;
+}
+img{
+	width: 45%;
+	cursor: pointer;
+}
+@media(min-width: 640px){
+	.header{
+	    font-size: 1.5em;
+	}
+	.block{
+	    width: 60%;
+	}
+	img{
+	    width: 24.2%;
+	}
+}
